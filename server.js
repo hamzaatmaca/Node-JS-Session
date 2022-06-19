@@ -7,7 +7,7 @@ var db = require("./config/db");
 var bodyParser = require("body-parser");
 var cors = require("cors");
 var session = require('express-session');
-
+//https://nodejs-express-session.herokuapp.com/
 dotenv.config({ path: "./config/.env" });
 app.use(cors());
 
