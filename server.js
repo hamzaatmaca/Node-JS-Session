@@ -19,7 +19,7 @@ app.use(session({
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-//mongodb://localhost:27017/video
+
 db();
 
 app.set("view engine", "ejs");
